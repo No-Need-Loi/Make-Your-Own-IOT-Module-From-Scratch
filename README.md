@@ -9,6 +9,37 @@ The ESP8266 board is a microcontroller that allows users to use the Arduino IDE 
 
 ![Screenshot (1746)](https://github.com/No-Need-Loi/Make-Your-Own-IOT-Module-From-Scratch/assets/142481076/3c30e0e8-c9f7-4fe9-9dcf-5191988c43b4)
 
+This project contains PCB and which was made with the help of JLCPCB
+
+JLCPCB has upgraded the via-in-pad process of all 6-20 layer PCBs for free and provides free ENIG to make PCB products more stable and reliable. It is worth mentioning that due to large-scale production capabilities, JLCPCB is able to reduce the cost, allowing everyone to truly enjoy the benefits of the JLCPCB advanced fabrication. Here at JLCPCB, you can also get 1-8 layer PCBs at only $2
+
+![FWII4IJLL9GI260](https://github.com/No-Need-Loi/Make-Your-Own-IOT-Module-From-Scratch/assets/142481076/67b62e19-8f9f-49d0-ad29-23b9f57c6543)
+
+Go to JLCPCB website and create a free account.  
+
+Register and Login using Google Account is also possible.
+
+![FEP2OKBLL9GI263](https://github.com/No-Need-Loi/Make-Your-Own-IOT-Module-From-Scratch/assets/142481076/ea625100-2640-442f-abd8-6b5d6f98d9c7)
+
+Step 2 – Upload Gerber File
+Once you have successfully created an account, Click on “Quote Now” and upload your Gerber File.
+
+![FWBKDVKLL9GI262](https://github.com/No-Need-Loi/Make-Your-Own-IOT-Module-From-Scratch/assets/142481076/9ceb21da-126e-4870-9ede-93ede0a4252d)
+
+Gerber File contains information about your PCB such as PCB layout information, Layer information, spacing information, tracks to name a few.
+
+![FTC3JQDLL9GI261](https://github.com/No-Need-Loi/Make-Your-Own-IOT-Module-From-Scratch/assets/142481076/1d2a8076-225b-4efd-bbaf-337cefa3a48c)
+
+Step 3 – Preview the File
+Once the Gerber file is uploaded, it will show you a preview of your circuit board.
+
+Make sure this is the PCB Layout of the board you want.
+
+![FYI7NXZLL9GI25W](https://github.com/No-Need-Loi/Make-Your-Own-IOT-Module-From-Scratch/assets/142481076/4d0a9385-786c-4d1c-8d5f-b7cd9ae1626a)
+
+Step 4 – Choose Necessary PCB Options
+
+Below the PCB preview, you will see so many options such as PCB Quantity, Texture, Thickness, Color etc. Choose all that are necessary for you. 
 
 It enables the connection of the internet to different applications of embedded systems. ESP8266 was designed in such a way that it offer support to IP or TCP capability. Also, the ESP8266 board can function as a standalone or a slave application. If this board is integrated as a standalone application, it functions as a microcontroller. However, if it runs as a slave, users can integrated it as a Wi-Fi adaptor.
 
@@ -27,7 +58,6 @@ After you have designed your circuit diagram, you need a circuit design. In this
 
 ![Screenshot (1751)](https://github.com/No-Need-Loi/Make-Your-Own-IOT-Module-From-Scratch/assets/142481076/a7034ca2-3766-46ee-a366-6c32e3fae6fb)
 
-
 As regards the circuit design, the CH_PCD and VCC pins of the ESP8266 are usually connected to power supply header’s VCC terminal. The GND pin is usually connected to the GND terminal. There is a 100 nF eramic disc capacitor between the GND female headers and the VCC.
 
 The RST pin means Reset. This pin is usually linked to an end of a push button. Then the designer connects the other head of the button to GND.
@@ -40,11 +70,9 @@ The introduction of the ESP8266 board has made it possible for developers and ma
 
 ![Screenshot (1755)](https://github.com/No-Need-Loi/Make-Your-Own-IOT-Module-From-Scratch/assets/142481076/a48647a7-da89-4baf-bcd6-f0f858e50eb8)
 
-
 ESP8266 board is integrated with RF transmitter, RF balun, analog transmitter, and power modules among others. The main benefit of the ESP8266 board is the its embedded wireless technology. This board requires no peripherals or shields. Also, it offers additional benefits like great processing power and speed. This board allows users to use the Arduino IDE to program it.
 
 ![Screenshot (1756)](https://github.com/No-Need-Loi/Make-Your-Own-IOT-Module-From-Scratch/assets/142481076/aa6792c6-94ab-460c-8fb1-ae0f21654248)
-
 
 The 32-bit processor featuring 16-bit instructions powers the ESP8266. Because of the Harvard architecture, instruction memory as well as data memory remains entirely independent.
 
